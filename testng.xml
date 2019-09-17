@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="order" value="Dress"/>
+  <parameter name="order1" value="Women"/>
+  
+    <classes>
+      <class name="NG.Parameter"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
